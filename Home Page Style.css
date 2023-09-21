@@ -9,3 +9,6 @@ h1{
     border-style: dashed;
     padding-left: 5px;
 }
+p{
+    font-weight: bold;
+}
