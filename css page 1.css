@@ -1,0 +1,19 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: beige;
+    color: rgb(63, 32, 6);
+}
+
+h1 {
+    font-size: 500%;
+    display: block;
+    text-align: center;
+    border: 3px saddlebrown;
+    border-style: dashed;
+}
+img {
+    display: flexbox;
+}
+ul {
+    list-style: square;
+}
