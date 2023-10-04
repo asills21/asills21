@@ -17,3 +17,26 @@ img {
 ul {
     list-style: square;
 }
+a.link {
+    color: rgb(71, 8, 25);    
+}
+
+a:hover {
+    color: rgb(154, 61, 81)
+}
+
+a:visited {
+    color: rgb(61, 91, 61);
+}
+table, th, td {
+    border-width: 2 px;
+    border-style: ridge;
+    border-color: saddlebrown;
+}
+tr:first-child {
+    background-color: rgb(186, 145, 106);
+}
+caption {
+    font-size: 125%;
+    font-weight: bold;
+}
