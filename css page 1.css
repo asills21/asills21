@@ -17,7 +17,7 @@ img {
 ul {
     list-style: square;
 }
-a.link {
+a:link {
     color: rgb(71, 8, 25);    
 }
 
