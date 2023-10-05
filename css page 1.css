@@ -17,15 +17,15 @@ img {
 ul {
     list-style: square;
 }
-link {
+a:link {
     color: rgb(71, 8, 25);    
 }
 
-link:hover {
+a:hover {
     color: rgb(154, 61, 81)
 }
 
-link:visited {
+a:visited {
     color: rgb(61, 91, 61);
 }
 table, th, td {
