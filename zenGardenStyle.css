@@ -14,7 +14,6 @@ outline-color: rgb(5, 26, 28);
 background-image: url("https://images.unsplash.com/photo-1545431781-3e1b506e9a37?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 padding: 40px;
 mix-blend-mode: hard-light;
-border-style:double rgb(99, 23, 23);
 margin-left: 400px;
 border-radius: 25px;
 border: 2px solid #73AD21;
@@ -24,7 +23,6 @@ text-align: center;
 
 .summary {
     background-color: rgb(242, 214, 112);
-    border-style: dashed;
     margin-left: 400px;
     padding: 50px;
     font-size: 150%;
@@ -38,7 +36,6 @@ text-align: center;
 
 .preamble {
     background-color: rgb(109, 194, 120);
-    border-style: dashed;
     margin-left: 400px;
     padding: 100px;
     font-size: 150%;
@@ -50,7 +47,6 @@ text-align: center;
 }
 .requirements {
     background-color: rgb(43, 150, 114);
-    border-style: dashed;
     padding: 100px;
     font-size: 105%;
     border-radius: 25px;
@@ -62,7 +58,6 @@ text-align: center;
 }
 #zen-supporting {
     background-color: rgb(253, 183, 183);
-    border-style: dashed;
     margin-left: 400px;
     padding: 100px;
     font-size: 150%;
@@ -74,7 +69,6 @@ text-align: center;
 }
 .benefits {
     background-color: rgb(74, 84, 162);
-    border-style: dashed;
     padding: 100px;
     font-size: 100%;
     border-radius: 25px;
@@ -86,7 +80,6 @@ text-align: center;
 }
 .participation {
     background-color: rgb(66, 125, 213);
-    border-style: dashed;
     padding: 100px;
     font-size: 100%;
     border-radius: 25px;
