@@ -3,51 +3,97 @@ html {
 }
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: peachpuff;
+    background-color: rgb(227, 224, 212);
+    background: transparent url("https://images.unsplash.com/photo-1566305977571-5666677c6e98?auto=format&fit=crop&q=80&w=1890&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 
 }
 h1{
 font-size: 400%;
-color: rgb(73, 145, 122);
-outline-color: black;
+color: rgb(47, 90, 82);
+outline-color: rgb(5, 26, 28);
 background-image: url("https://images.unsplash.com/photo-1545431781-3e1b506e9a37?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
 padding: 40px;
-mix-blend-mode: multiply;
+mix-blend-mode: hard-light;
 border-style:double rgb(99, 23, 23);
 margin-left: 400px;
+border-radius: 25px;
+border: 2px solid #73AD21;
+text-align: center;
 
 }
 
 .summary {
-    background-color: palegoldenrod;
+    background-color: rgb(242, 214, 112);
     border-style: dashed;
     margin-left: 400px;
+    padding: 50px;
+    font-size: 150%;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    text-align: center;
+    mix-blend-mode: hard-light;
+    
+
 }
 
 .preamble {
-    background-color: rgb(192, 238, 198);
+    background-color: rgb(109, 194, 120);
     border-style: dashed;
     margin-left: 400px;
+    padding: 100px;
+    font-size: 150%;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    text-align: center;
+    mix-blend-mode: hard-light;
+
 }
 .requirements {
-    background-color: rgb(192, 238, 223);
+    background-color: rgb(43, 150, 114);
     border-style: dashed;
+    padding: 100px;
+    font-size: 105%;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    text-align: center;
+    mix-blend-mode: hard-light;
+
 
 }
 #zen-supporting {
     background-color: rgb(253, 183, 183);
     border-style: dashed;
     margin-left: 400px;
+    padding: 100px;
+    font-size: 150%;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    text-align: center;
+    mix-blend-mode: hard-light;
+
 }
 .benefits {
-    background-color: rgb(169, 175, 228);
+    background-color: rgb(74, 84, 162);
     border-style: dashed;
+    padding: 100px;
+    font-size: 100%;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    text-align: center;
+    mix-blend-mode: hard-light;
 
 
 }
 .participation {
-    background-color: rgb(234, 205, 255);
+    background-color: rgb(66, 125, 213);
     border-style: dashed;
+    padding: 100px;
+    font-size: 100%;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    text-align: center;
+    mix-blend-mode: hard-light;
+
 
 
 }
@@ -56,6 +102,7 @@ margin-left: 400px;
    position: fixed;
    top: 0;
    left: 0;
+   border: 1px solid #a6a6a6;
 }
 .sidebar
 {
@@ -63,13 +110,36 @@ margin-left: 400px;
    min-height: 1000px;
    background: transparent url("https://images.unsplash.com/photo-1566041510394-cf7c8fe21800?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
    margin-right: 50px;
+   border: 1px solid #a6a6a6;
 
 }
 .sidebar .wrapper {
     padding: 25px;
     background: transparent url("https://images.unsplash.com/photo-1566041510394-cf7c8fe21800?auto=format&fit=crop&q=80&w=1887&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); 
+    border: 1px solid #a6a6a6;
 }
-.sidebar
+
 h3 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer {
+    text-align: center; 
+    background-color: rgb(180, 73, 105);
+    font-size: 100%;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 50px;
+    mix-blend-mode: hard-light;
+}
+ a:link { 
+	color: rgb(255, 255, 255); 
+	}
+a:visited {
+    color: rgb(225, 66, 153)
+}
+.participation a:link {
+    color:rgb(6, 46, 33)
+}
+.sidebar a:link  {
+    color:rgb(12, 87, 63)
 }
